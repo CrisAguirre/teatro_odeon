@@ -1,12 +1,12 @@
 /*!
 
 =========================================================
-* Now UI Kit Angular - v1.4.0
+* Argon Design System Angular - v1.3.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-angular
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit-angular/blob/master/LICENSE.md)
+* Product Page: https://www.creative-tim.com/product/argon-design-system-angular
+* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-angular/blob/master/LICENSE.md)
 
 * Coded by Creative Tim
 
@@ -25,4 +25,5 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule);
+platformBrowserDynamic().bootstrapModule(AppModule)
+  .catch(err => console.error(err));
