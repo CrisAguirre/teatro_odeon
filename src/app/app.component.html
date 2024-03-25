@@ -353,11 +353,13 @@
   <!-- Resources -->
   <h2>Documentos Legales</h2>
   <p>En esta sección se muestran todos los documentos legales de Fundación Teatro Odeón</p>
-
+  <br/>
   <input type="hidden" #selection>
 
   <div class="card-container">
     <section>
+      <h2>ACTA DE ASAMBLEA GENERAL</h2>
+      <p>Documento de acta asamblea general 2023</p>
       <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
         [render-text]="true"
         [original-size]="false"
@@ -366,7 +368,22 @@
     </section>
 
     <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
+      <h2>AUTORIZACION PARA TRAMITE DIAN</h2>
+      <p>Documento de autorización DIAN</p>
+      <pdf-viewer src="./../assets/pdf/AUTORIZACION_PARA_TRAMITE_DIAN.pdf"
+        [render-text]="true"
+        [original-size]="false"
+        style="width: 400px; height: 500px"
+      ></pdf-viewer>
+    </section>
+
+  </div>
+  <div class="card-container">
+    
+    <section>
+      <h2>Cámara de Comercio 2023</h2>
+      <p>Certificacdo Cámara de Comercio 2023</p>
+      <pdf-viewer src="./../assets/pdf/CAMARA_DE_COMERCIO_2023.pdf"
         [render-text]="true"
         [original-size]="false"
         style="width: 400px; height: 500px"
@@ -374,7 +391,22 @@
     </section>
 
     <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
+      <h2>Certificación</h2>
+      <p>Certificación Cámara de Comercio</p>
+      <pdf-viewer src="./../assets/pdf/certificado_Camara_de_Comercio_27022024181335.pdf"
+        [render-text]="true"
+        [original-size]="false"
+        style="width: 400px; height: 500px"
+      ></pdf-viewer>
+    </section>
+
+  </div>
+  <div class="card-container">
+
+    <section>
+      <h2>Certificación</h2>
+      <p>Certificación de cumplimiento de requisitos</p>
+      <pdf-viewer src="./../assets/pdf/CERTIFICADO_DE_CUMPLIMIENTO_DE_REQUISITOS.pdf"
         [render-text]="true"
         [original-size]="false"
         style="width: 400px; height: 500px"
@@ -382,69 +414,53 @@
     </section>
 
     <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
+      <h2>Certificación</h2>
+      <p>Certificación de no remuneración</p>
+      <pdf-viewer src="./../assets/pdf/CERTIFICADO_DE_NO_REMUNERACION.pdf"
         [render-text]="true"
         [original-size]="false"
         style="width: 400px; height: 500px"
       ></pdf-viewer>
     </section>
 
+  </div>
+  <div class="card-container">
+
     <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
+      <h2>Certificado DIAN 2023</h2>
+      <p>Documento de certificado DIAN 2023</p>
+      <pdf-viewer src="./../assets/pdf/Certificado_para_la_DIAN_2023.pdf"
+        [render-text]="true"
+        [original-size]="false"
+        style="width: 400px; height: 500px"
+      ></pdf-viewer>
+    </section>
+    <hr class="hr hr-blurry" />
+    <section>
+      <h2>Solicitud DIAN</h2>
+      <p>Documento para DIAN</p>
+      <pdf-viewer src="./../assets/pdf/Para_DIAN_2023.pdf"
         [render-text]="true"
         [original-size]="false"
         style="width: 400px; height: 500px"
       ></pdf-viewer>
     </section>
 
-    <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
-        [render-text]="true"
-        [original-size]="false"
-        style="width: 400px; height: 500px"
-      ></pdf-viewer>
-    </section>
+  </div>
+  <div class="card-container">
 
     <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
-        [render-text]="true"
-        [original-size]="false"
-        style="width: 400px; height: 500px"
-      ></pdf-viewer>
-    </section>
-
-    <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
-        [render-text]="true"
-        [original-size]="false"
-        style="width: 400px; height: 500px"
-      ></pdf-viewer>
-    </section>
-
-    <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
-        [render-text]="true"
-        [original-size]="false"
-        style="width: 400px; height: 500px"
-      ></pdf-viewer>
-    </section>
-
-    <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
-        [render-text]="true"
-        [original-size]="false"
-        style="width: 400px; height: 500px"
-      ></pdf-viewer>
-    </section>
-
-    <section>
-      <pdf-viewer src="./../assets/pdf/ACTA_ASAMBLEA_GENERAL.pdf"
+      <h2>RUT</h2>
+      <p>Certificado Rut</p>
+      <pdf-viewer src="./../assets/pdf/RUT_09032023.pdf"
         [render-text]="true"
         [original-size]="false"
         style="width: 400px; height: 500px"
       ></pdf-viewer>
     </section>
   </div>
+  <div class="card-container">
+    
 
   <!-- Links -->
   <div class="card-container">
@@ -466,11 +482,11 @@
 
   <!-- Footer -->
   <footer>
-      Derechos reservados&nbsp;
+      Derechos reservados &nbsp;
       <a href="https://github.com/angular/angular" target="_blank" rel="noopener"> Fundación Teatro Odeón de Calarcá
         <div class="github-star-badge">
             <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-          Star
+          2024
         </div>
       </a>
       <a href="https://github.com/angular/angular" target="_blank" rel="noopener">
